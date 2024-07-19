@@ -6,3 +6,5 @@ sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt -y install ansible
 mkdir ansible
 cd ansible
+sudo mv /etc/ansible/ansible.cfg /etc/ansible/ansible_latest.cfg
+sudo cp /home/ansible.cfg /etc/ansible/ansible.cfg
